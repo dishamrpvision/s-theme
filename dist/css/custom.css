@@ -67,7 +67,7 @@ a:hover, a:focus, input:hover, input:focus, button:hover, button:focus{
 .main-header .header-left {
 	background: #fff;
 	min-width: 272px;
-	line-height: 95px;
+	line-height: 70px;
 }
 .main-header .header-left .logo {
 	width: 215px;
@@ -82,50 +82,50 @@ a:hover, a:focus, input:hover, input:focus, button:hover, button:focus{
 	width: 24px;
 	display: block;
 	float: left;
-	margin: 38px 0 0;
+	margin: 23px 0 0;
 	left: 203px;
 }
 .main-header .header-left .sidebar-toggle:before {
 	content: "";
 }
 .main-header .navbar {
-	min-height: 95px;
+	min-height: 70px;
 	margin-left: 0;
 }
 .main-header .navbar-custom-menu {
 	padding: 20px 15px 0;
 }
 .main-header .navbar-nav li .top_header_icon {
-	height: 30px;
-	width: 30px;
+	height: 21px;
+	width: 21px;
 	display: block;
 }
 .main-header .navbar-nav li a:hover, .main-header .navbar-nav li a:active .main-header .navbar-nav li a:focus {
 	background: transparent;
 }
 .main-header .navbar-nav li .icon_setting {
-	background: url(../img/icon_setting.png) no-repeat top left;
+	background: url(../img/icon_setting.png) no-repeat top left/contain;
 }
 .main-header .navbar-nav li .icon_notification {
-	background: url(../img/icon_notification.png) no-repeat top left;
+	background: url(../img/icon_notification.png) no-repeat top left/contain;
 }
 .main-header .navbar-nav li .icon_logout {
-	background: url(../img/icon_logout.png) no-repeat top left;
+	background: url(../img/icon_logout.png) no-repeat top left/contain;
 }
 .main-header .navbar .nav>li>a>.label {
 	position: absolute;
 	top: 3px;
 	right: 0px;
 	text-align: center;
-	font-size: 14px;
+	font-size: 10px;
 	padding: 6px 5px 6px 8px;
-	line-height: 14px;
+	line-height: 10px;
 	background: #337f67 !important;
 	border-radius: 100%;
 }
 .main-sidebar {
 	width: 272px;
-	padding-top: 95px;
+	padding-top: 70px;
 }
 .main-sidebar .sidebar {
 	border-top: 1px solid #202f44;
@@ -227,7 +227,7 @@ a:hover, a:focus, input:hover, input:focus, button:hover, button:focus{
 .sidebar-mini.sidebar-collapse .main-header .header-left {
 	background: #fff;
 	max-width: 50px;
-	line-height: 95px;
+	line-height: 70px;
 	min-width: inherit;
 }
 .sidebar-mini.sidebar-collapse .main-header .navbar {
@@ -267,27 +267,27 @@ a:hover, a:focus, input:hover, input:focus, button:hover, button:focus{
 	margin:0;
 }
 .navbar-right {
-	width: calc(100% - 257px);
-	left: 257px;
+	width: calc(100% - 272px);
+	left: 272px;
 	position: absolute;
 	transition: 1s;
 }
 .navbar-right h1 {
-	float: left;
-	padding: 12px 0 0 30px;
+    float: left;
+    padding: 0px 0 0 15px;
 }
 .navbar-right .search-form {
 	float: left;
-	width: 350px;
+	width: 250px;
 	margin-right: 22px;
 	position: absolute;
-    right: 180px;
+    right: 125px;
 }
 .navbar-right .search-form .form-group {
 	position: relative;
 	width: 0%;
-	min-width: 60px;
-	height: 60px;
+	min-width: 40px;
+	height: 40px;
 	overflow: hidden;
 	transition: width 1s;
 	backface-visibility: hidden;
@@ -298,7 +298,7 @@ a:hover, a:focus, input:hover, input:focus, button:hover, button:focus{
 	right: 0;
 	outline: none;
 	width: 100%;
-	height: 60px;
+	height: 40px;
 	margin: 0;
 	z-index: 10;
 	border-radius: 8px;
@@ -317,19 +317,19 @@ a:hover, a:focus, input:hover, input:focus, button:hover, button:focus{
 	appearence: none;
 }
 .navbar-right .search-form .form-control-submit, .navbar-right .search-form .search-label {
-	width: 60px;
-	height: 60px;
-	position: absolute;
-	right: 0;
-	top: 0;
-	padding: 0;
-	margin: 0;
-	text-align: center;
-	cursor: pointer;
-	line-height: 60px;
-	background: #337f67;
-	border-radius: 8px;
-	color: #fff;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    background: #337f67;
+    border-radius: 5px;
+    color: #fff;
 }
 .navbar-right .search-form .form-control-submit {
 	background: #fff; /*stupid IE*/
@@ -354,11 +354,11 @@ a:hover, a:focus, input:hover, input:focus, button:hover, button:focus{
 	z-index: 90;
 }
 .navbar-right .search-form .search_icon {
-	background: url(../img/icon_search.png) no-repeat center center;
-	width: 22px;
-	height: 22px;
-	display: inline-block;
-	margin: 19px 0;
+    background: url(../img/icon_search.png) no-repeat center center/ contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 10px 0;
 }
 
 /* Breadcrumb */
@@ -410,7 +410,10 @@ a:hover, a:focus, input:hover, input:focus, button:hover, button:focus{
     padding: 15px 15px 5px;
 	text-transform: capitalize;
 }
-.form-control, .select2-container--default .select2-selection--single{
+.form-control{
+	border-color:#999999;
+}
+/*.form-control, .select2-container--default .select2-selection--single{
 	background:#203547;
 	color:#d0d5e8;
 	border-radius:6px;
@@ -418,7 +421,7 @@ a:hover, a:focus, input:hover, input:focus, button:hover, button:focus{
 	padding:15px;
 	font-family: 'Brandon Grotesque Medium';
 	height:inherit;
-}
+}*/
 .select2-container--default .select2-selection--single{
 	border:0;
 }
