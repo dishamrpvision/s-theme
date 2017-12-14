@@ -1,0 +1,153 @@
+/*
+ * Skin: skin-servicon
+ * ----------
+ */
+.skin-servicon .main-header .navbar {
+  background-color: #f2f6fc;
+}
+.skin-servicon .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-servicon .main-header .navbar .nav > li > a:hover,
+.skin-servicon .main-header .navbar .nav > li > a:active,
+.skin-servicon .main-header .navbar .nav > li > a:focus,
+.skin-servicon .main-header .navbar .nav .open > a,
+.skin-servicon .main-header .navbar .nav .open > a:hover,
+.skin-servicon .main-header .navbar .nav .open > a:focus,
+.skin-servicon .main-header .navbar .nav > .active > a {
+  background: none;
+  color: #f6f6f6;
+}
+.skin-servicon .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-servicon .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-servicon .content-wrapper {
+	background-color: #d2e0ec;
+}
+@media (max-width: 767px) {
+  .skin-servicon .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-servicon .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-servicon .main-header .navbar .dropdown-menu li a:hover {
+    background: #367fa9;
+  }
+}
+.skin-servicon .main-header .logo {
+  background-color: #ffffff;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-servicon .main-header .logo:hover {
+  background-color: #ffffff;
+}
+.skin-servicon .main-header li.user-header {
+  background-color: #3c8dbc;
+}
+.skin-servicon .content-header {
+  background: transparent;
+}
+.skin-servicon .wrapper,
+.skin-servicon .main-sidebar,
+.skin-servicon .left-side {
+  background-color: #70a1c6;
+}
+.skin-servicon .user-panel > .info,
+.skin-servicon .user-panel > .info > a,
+.skin-servicon .user-panel > .info > a:hover {
+  color: #132965;
+  opacity:1;
+}
+.skin-servicon .sidebar-menu > li.header {
+  color: #4b646f;
+  background: #1a2226;
+}
+.skin-servicon .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-servicon .sidebar-menu > li.active > a/*,
+.skin-servicon .sidebar-menu > li.menu-open > a*/ {
+  color: #ffffff;
+  background: #132965;
+}
+.skin-servicon .sidebar-menu > li.active > a {
+  border-left-color: #337f67;
+}
+.skin-servicon .sidebar-menu > li > .treeview-menu {
+  margin: 0;
+  padding-left: 0;
+}
+.skin-servicon .sidebar a {
+  color: #132965;
+}
+.skin-servicon .sidebar a:hover {
+  text-decoration: none;
+  opacity:.75;
+}
+.skin-servicon .sidebar-menu li.active > a:hover,
+.skin-servicon.sidebar-mini.sidebar-collapse .sidebar-menu li > a {
+	opacity:1;
+}
+.skin-servicon.sidebar-mini.sidebar-collapse .sidebar-menu li .treeview-menu a {
+	background:#70a1c6;
+	padding-left:20px;
+}
+.skin-servicon .sidebar-menu .treeview-menu > li > a {
+  color: #132965;
+}
+.skin-servicon .sidebar-menu .treeview-menu > li.active > a,
+.skin-servicon .sidebar-menu .treeview-menu > li > a:hover {
+}
+.skin-servicon .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-servicon .sidebar-form input[type="text"],
+.skin-servicon .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-servicon .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-servicon .sidebar-form input[type="text"]:focus,
+.skin-servicon .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-servicon .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-servicon .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.skin-servicon.layout-top-nav .main-header > .logo {
+  background-color: #3c8dbc;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-servicon.layout-top-nav .main-header > .logo:hover {
+  background-color: #3b8ab8;
+}
+
+.skin-servicon .box.box-primary,
+.nav-tabs-custom>.nav-tabs>li.active {
+    border-top-color: #337f67;
+}
+
