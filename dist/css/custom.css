@@ -512,6 +512,27 @@ a:hover, a:focus, input:hover, input:focus, button:hover, button:focus {
 }
 /* popup */
 
+/* tabel */
+.table-bordered, .table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    border: 1px solid #4d4d4d;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    border-top: 1px solid #4d4d4d;
+}
+.table tr th {
+    border-bottom: 1px solid #4d4d4d;
+    color: #132965;
+    font-family: 'Brandon Grotesque Medium';
+}
+.table>tbody>tr>td, .table>tfoot>tr>td, .table>thead>tr>td{
+    color: #4d4d4d;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+	background-color: #132965;
+    border-color: #132965;
+}
+/* tabel */
+
  @media (max-width: 1000px) {
 .navbar-right h1 {
 	font-size: 24px;
