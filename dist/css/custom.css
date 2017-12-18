@@ -21,6 +21,7 @@ body {
 	font-family: 'Brandon Grotesque Light';
 	font-weight: 330;
 	font-style: normal;
+	color:#4d4d4d;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: 'Brandon Grotesque Medium';
@@ -226,6 +227,22 @@ a:hover, a:focus, input:hover, input:focus, button:hover, button:focus {
 	height: 18px;
 	display: inline-block;
 	margin: 10px 0;
+}
+.navbar-nav>.notifications-menu>.dropdown-menu>li .menu>li>a {
+    color: #4d4d4d;
+}
+.navbar-nav>.notifications-menu>.dropdown-menu>li.header, .navbar-nav>.messages-menu>.dropdown-menu>li.header, .navbar-nav>.tasks-menu>.dropdown-menu>li.header,
+.navbar-nav>.notifications-menu>.dropdown-menu>li .menu>li>a, .navbar-nav>.messages-menu>.dropdown-menu>li .menu>li>a, .navbar-nav>.tasks-menu>.dropdown-menu>li .menu>li>a,
+.navbar-nav>.notifications-menu>.dropdown-menu>li.footer>a, .navbar-nav>.messages-menu>.dropdown-menu>li.footer>a, .navbar-nav>.tasks-menu>.dropdown-menu>li.footer>a{
+	border-bottom: 1px solid #4d4d4d;
+}
+.navbar-nav>.notifications-menu>.dropdown-menu>li.footer>a.green_btn, .navbar-nav>.messages-menu>.dropdown-menu>li.footer>a.green_btn, .navbar-nav>.tasks-menu>.dropdown-menu>li.footer>a.green_btn{
+	background: #008066;
+    color: #ffffff !important;
+}
+.navbar-nav>.notifications-menu>.dropdown-menu>li.footer>a.green_btn:hover, .navbar-nav>.messages-menu>.dropdown-menu>li.footer>a.green_btn:focus{
+	background: #286090;
+    color: #ffffff !important;
 }
 /* header css */
 
